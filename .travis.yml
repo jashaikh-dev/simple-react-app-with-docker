@@ -5,3 +5,6 @@ services:
 
 before_install:
   - docker build -t jashaikh/simple-react-app-with-docker -f Dockerfile.dev .
+
+script:
+  - docker run jashaikh/simple-react-app-with-docker npm run test -- --coverage
