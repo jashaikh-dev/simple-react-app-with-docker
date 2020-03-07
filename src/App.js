@@ -11,6 +11,7 @@ function App() {
           React in Docker
           <br />
           This is Awesome!
+          <strong>Docker, CI & CD, Travis and AWS are amazing!</strong>
         </p>
         <a
           className="App-link"
